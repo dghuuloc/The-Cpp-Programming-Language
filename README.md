@@ -61,14 +61,14 @@ the `main()` function ends with a closing curly brace, `}`. If you don't end a f
 
 ### Review
 ```cpp
-#include <iostream>								// Header file
-using namespace std;							// Standard namespace declaration
+#include <iostream>				// Header file
+using namespace std;				// Standard namespace declaration
 
-int main()										// The main() function
-{												// Opening curly braces
-	cout << "Hello, World!" << endl;			// Output "Hello, World!" to the console and end the line
-	return 0;									// Terminate the main() function
-}												// Closing curly braces
+int main()					// The main() function
+{						// Opening curly braces
+	cout << "Hello, World!" << endl;	// Output "Hello, World!" to the console and end the line
+	return 0;				// Terminate the main() function
+}						// Closing curly braces
 ```
 
 
