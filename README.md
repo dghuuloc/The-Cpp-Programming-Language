@@ -211,6 +211,16 @@ string name = "Unity Buddy"
 cout << "The size of your name is: " << name.size();
 ```
 
+### User Input Strings
+when working with strings, we often use the getline() function to read a line of text. It takes cin as the first parameter, and the string variable as second:
+
+```cpp
+string fullName;
+cout << "Type your full name: ";
+getline (cin, fullName);
+cout << "Your name is: " << fullName;
+```
+ 
 ## References
 - [How to Learn the C++ Programming Language](https://www.freecodecamp.org/news/how-to-learn-the-c-programming-language/)
 
