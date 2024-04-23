@@ -102,15 +102,25 @@ This command will compile the `hello-world.cpp` into the file indicated in the `
 ### Data Types
 C++ has seven fundamental data types. They are as follows:
 
-| DATA TYPES   | MEANING 					| 
-|--------------|:---------------------------|
-| `int`    	   | Integer          			|
-| `float`      | Floating Point          	|
-| `double`     | Double Floating Point      |
-| `char`       | Character         			|
-| `w_char`     | Wide Character          	|
-| `bool`       | Boolean          			|
-| `void`       | Empty          			|
+| DATA TYPES   | MEANING 		 | SIZE			| RANGE		|  
+|--------------|:------------------------|:---------------------|:---------------------|
+| `char`       | Character         	 | 1 bytes 		| -128 to 127 or 0 to 255 |
+| `unsigned char`       | Character         	 | 1 bytes 		| 0 to 255 |
+| `signed char`       | Character         	 | 1 bytes 		| -128 to 127 |
+| `int`        | Integer          	 | 2 bytes or 4 bytes   | -2147483648 to 2147483647 |
+| `unsigned int`        | Integer          	 | 2 bytes or 4 bytes   | 0 to 4294967295 |
+| `signed int`        | Integer          	 | 2 bytes or 4 bytes   | -2147483648 to 2147483647 |
+| `short int`        | Integer          	 | 2 bytes   | -32768 to 32767 |
+| `unsigned short int`        | Integer          	 | 2 bytes   | 0 to 65535 |
+| `signed short int`        | Integer          	 | 2 bytes   | -32768 to 32767 |
+| `long int`        | Integer          	 | 4 bytes   | -2147483648 to 2147483647 |
+| `unsigned long int`        | Integer          	 | 4 bytes   | 0 to 4294967295 |
+| `signed long int`        | Integer          	 | 4 bytes   | -2147483648 to 2147483647 |
+| `float`      | Floating Point          | 4 bytes 		| +/-3.4e +/-38 |
+| `double`     | Double Floating Point   | 8 bytes 		| +/-1.7e +/-308 |
+| `w_char`     | Wide Character          | 2 bytes 		| |
+| `bool`       | Boolean          	 | 1 bytes 		| |
+| `void`       | Empty          	 | 0 bytes 		| |
 
 There are modifiers such as `short`, `long`, `signed`, and `unsigned`.
 
