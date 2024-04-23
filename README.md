@@ -99,6 +99,11 @@ This command will compile the `hello-world.cpp` into the file indicated in the `
 ```
 
 ## Data Types
+In general C++ programming language is containing three categories of data types. They are:
+- Primitive data types: `Integer`, `Character`, `Boolean`, `Floating Point`, `Double Floating Point`, `Void`, `Wide Character`
+- Derived data types: `Function`, `Array`, `Pointer`, `Reference`
+- User defined data types: `Class`, `Structure`, `Union`, `Enum`, `Typedef`
+
 C++ has seven fundamental data types. They are as follows:
 
 | DATA TYPES   | MEANING 		 | TYPICAL BIT WIDTH	| TYPICAL RANGE 		|  
