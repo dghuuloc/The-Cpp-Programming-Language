@@ -98,8 +98,7 @@ This command will compile the `hello-world.cpp` into the file indicated in the `
 # Hello, World!
 ```
 
-## Data Types and Arrays
-### Data Types
+## Data Types
 C++ has seven fundamental data types. They are as follows:
 
 | DATA TYPES   | MEANING 		 | TYPICAL BIT WIDTH			| TYPICAL RANGE 	|  
@@ -159,7 +158,7 @@ int main() {
 }
 ```
 
-### Array
+## Array
 There are also arrays which are capable of storing multiple values of the same type. So if you want to declare an array of type `int`, you can do so as follows:
 
 ```cpp
