@@ -102,7 +102,7 @@ This command will compile the `hello-world.cpp` into the file indicated in the `
 ### Data Types
 C++ has seven fundamental data types. They are as follows:
 
-| DATA TYPES   | MEANING 		 | SIZE			| RANGE		|  
+| DATA TYPES   | MEANING 		 | TYPICAL BIT WIDTH			| TYPICAL RANGE 	|  
 |--------------|:------------------------|:---------------------|:---------------------|
 | `char`       | Character         	 | 1 bytes 		| -128 to 127 or 0 to 255 |
 | `unsigned char`       | Character         	 | 1 bytes 		| 0 to 255 |
@@ -116,8 +116,8 @@ C++ has seven fundamental data types. They are as follows:
 | `long int`        | Integer          	 | 4 bytes   | -2147483648 to 2147483647 |
 | `unsigned long int`        | Integer          	 | 4 bytes   | 0 to 4294967295 |
 | `signed long int`        | Integer          	 | 4 bytes   | -2147483648 to 2147483647 |
-| `float`      | Floating Point          | 4 bytes 		| +/-3.4e +/-38 |
-| `double`     | Double Floating Point   | 8 bytes 		| +/-1.7e +/-308 |
+| `float`      | Floating Point          | 4 bytes 		| +/-3.4e +/-38 (~7 digits) |
+| `double`     | Double Floating Point   | 8 bytes 		| +/-1.7e +/-308 (~15 digits) |
 | `w_char`     | Wide Character          | 2 bytes 		| |
 | `bool`       | Boolean          	 | 1 bytes 		| |
 | `void`       | Empty          	 | 0 bytes 		| |
