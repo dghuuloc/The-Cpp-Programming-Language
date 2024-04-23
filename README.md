@@ -118,7 +118,7 @@ C++ has seven fundamental data types. They are as follows:
 | `signed long int`        | Integer          	 | 4 bytes   | -2147483648 to 2147483647 |
 | `float`      | Floating Point          | 4 bytes 		| +/-3.4e +/-38 (~7 digits) |
 | `double`     | Double Floating Point   | 8 bytes 		| +/-1.7e +/-308 (~15 digits) |
-| `w_char`     | Wide Character          | 2 bytes 		| |
+| `wchar_t`     | Wide Character          | 2 bytes or 4 bytes  | 1 wide character		 |
 | `bool`       | Boolean          	 | 1 bytes 		| |
 | `void`       | Empty          	 | 0 bytes 		| |
 
