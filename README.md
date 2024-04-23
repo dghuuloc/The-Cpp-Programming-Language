@@ -177,23 +177,39 @@ A `string` variable contains a collection of characters surrounded by double quo
 string str = "String Value";
 ```
 
-- To use strings, you mút import `<string>` library:
+- To use strings, you must import `<string>` library:
 ```cpp
 #include <string>
 ```
 
+### String concaternation
 - To combine two strings, we use `+` sign
 ```spp
 string name = "Unity Buddy";
 string age = "1102 years old."
 cout << name + age << endl;
 ```
-- To find the length ò the string, we can use `length()` function. (`size()` function í also used for the same thing)
+### String `append()` function
+A string in C++ is actually an object, which contain functions that can perform certain operations on strings. So, you can concatenate strings with the `append()` function
+```cpp
+string firstName = "John ";
+string lastName = "Doe";
+string fullName = firstName.append(lastName);
+cout << fullName;
+```
+
+### String length
+- To find the length of the string, we can use `length()` function.
 ```cpp
 string name = "Unity Buddy"
 cout << "The length of your name is: " << name.length();
 ```
 
+You might see some C++ programs that use the `size()` function to get the length of a string. This is just an alias of `length()`. It is completely up to you if you want to use `length()` or `size()`:
+```cpp
+string name = "Unity Buddy"
+cout << "The size of your name is: " << name.size();
+```
 
 ## References
 - [How to Learn the C++ Programming Language](https://www.freecodecamp.org/news/how-to-learn-the-c-programming-language/)
