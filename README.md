@@ -100,21 +100,31 @@ This command will compile the `hello-world.cpp` into the file indicated in the `
 
 ## Data Types
 In general C++ programming language is containing three categories of data types. They are:
-- Primitive data types: `Integer`, `Character`, `Boolean`, `Floating Point`, `Double Floating Point`, `Void`, `Wide Character`
+- Primitive/Built-in data types: `Integer`, `Character`, `Boolean`, `Floating Point`, `Double Floating Point`, `Void`, `Wide Character`
 - Derived data types: `Function`, `Array`, `Pointer`, `Reference`
 - User defined data types: `Class`, `Structure`, `Union`, `Enum`, `Typedef`
 
 C++ has seven fundamental data types. They are as follows:
 
-| DATA TYPES   | MEANING 		 | TYPICAL BIT WIDTH	| TYPICAL RANGE 		|  
-|--------------|:------------------------|:---------------------|:------------------------------|
-| `char`       | Character         	 | 1 bytes 		| -128 to 127 or 0 to 255 	|
-| `int`        | Integer          	 | 2 bytes or 4 bytes   | -2147483648 to 2147483647 	|
-| `float`      | Floating Point          | 4 bytes 		| +/-3.4e +/-38 (~7 digits) 	|
-| `double`     | Double Floating Point   | 8 bytes 		| +/-1.7e +/-308 (~15 digits) 	|
-| `wchar_t`     | Wide Character          | 2 bytes or 4 bytes  | 1 wide character	 	|
-| `bool`       | Boolean          	 | 1 bytes 		| true or false 		|
-| `void`       | Empty          	 | 0 bytes 		|  				|
+| DATA TYPES   			| MEANING 		 | TYPICAL BIT WIDTH	| TYPICAL RANGE 			|  
+|-------------------------------|:-----------------------|:---------------------|:--------------------------------------|
+| `char`       			| Character         	 | 1 bytes 		| -128 to 127 or 0 to 255 		|
+| `unsigned char`       	| Character         	 | 1 bytes 		| 0 to 255 				|
+| `signed char`       		| Character         	 | 1 bytes 		| -128 to 127 				|
+| `int`        			| Integer          	 | 4 bytes   		| -2,147,483,648 to 2,147,483,647	|
+| `unsigned int`        	| Integer          	 | 4 bytes   		| 0 to 4,294,967,295			|
+| `signed int`        		| Integer          	 | 4 bytes   		| -2,147,483,648 to 2,147,483,647	|
+| `short int`        		| Integer          	 | 2 bytes   		| -32,768 to 32,767 			|
+| `unsigned short int`        	| Integer          	 | Range   		| 0 to 65,535 				|
+| `signed short int`        	| Integer          	 | Range   		| -32,768 to 32,767 			|
+| `long int`        		| Integer          	 | 4 bytes   		| -2,147,483,648 to 2,147,483,647	|
+| `unsigned long int`        	| Integer          	 | 4 bytes   		| 0 to 4,294,967,295			|
+| `signed long int`        	| Integer          	 | 4 bytes   		| -2,147,483,648 to 2,147,483,647	|
+| `float`      			| Floating Point         | 4 bytes 		| +/-3.4e +/-38 (~7 digits) 		|
+| `double`     			| Double Floating Point  | 8 bytes 		| +/-1.7e +/-308 (~15 digits) 		|
+| `wchar_t`    			| Wide Character         | 2 bytes or 4 bytes   | 1 wide character	 		|
+| `bool`       			| Boolean          	 | 1 bytes 		| true or false 			|
+| `void`       			| Empty          	 | 0 bytes 		|  					|
 
 There are modifiers such as `short`, `long`, `signed`, and `unsigned`.
 
@@ -130,7 +140,6 @@ int main() {
 	return 0;
 }
 ```
-
 ## Array
 There are also arrays which are capable of storing multiple values of the same type. So if you want to declare an array of type `int`, you can do so as follows:
 
