@@ -185,7 +185,7 @@ string str = "String Value";
 - To combine two strings, we use `+` sign
 ```spp
 string name = "Unity Buddy";
-string age = ""1102 years old.
+string age = "1102 years old."
 cout << name + age << endl;
 ```
 - To find the length ò the string, we can use `length()` function. (`size()` function í also used for the same thing)
