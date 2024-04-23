@@ -172,8 +172,27 @@ int main() {
 }
 ```
 ## C++ String
+A `string` variable contains a collection of characters surrounded by double quotes:
+```cpp
+string str = "String Value";
+```
 
+- To use strings, you mút import `<string>` library:
+```cpp
+#include <string>
+```
 
+- To combine two strings, we use `+` sign
+```spp
+string name = "Unity Buddy";
+string age = ""1102 years old.
+cout << name + age << endl;
+```
+- To find the length ò the string, we can use `length()` function. (`size()` function í also used for the same thing)
+```cpp
+string name = "Unity Buddy"
+cout << "The length of your name is: " << name.length();
+```
 
 
 ## References
