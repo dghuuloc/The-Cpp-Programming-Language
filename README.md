@@ -140,6 +140,10 @@ int main() {
 	return 0;
 }
 ```
+## Input/Output
+- `cout` is pronounced "see-out". Used for __output_, and uses the insertion operator (`<<`)
+- `cin` is pronounced "see-in". Used for __input__, and uses the extraction operator (`>>`)
+
 ## Array
 There are also arrays which are capable of storing multiple values of the same type. So if you want to declare an array of type `int`, you can do so as follows:
 
