@@ -101,25 +101,15 @@ This command will compile the `hello-world.cpp` into the file indicated in the `
 ## Data Types
 C++ has seven fundamental data types. They are as follows:
 
-| DATA TYPES   | MEANING 		 | TYPICAL BIT WIDTH			| TYPICAL RANGE 	|  
-|--------------|:------------------------|:---------------------|:---------------------|
-| `char`       | Character         	 | 1 bytes 		| -128 to 127 or 0 to 255 |
-| `unsigned char`       | Character         	 | 1 bytes 		| 0 to 255 |
-| `signed char`       | Character         	 | 1 bytes 		| -128 to 127 |
-| `int`        | Integer          	 | 2 bytes or 4 bytes   | -2147483648 to 2147483647 |
-| `unsigned int`        | Integer          	 | 2 bytes or 4 bytes   | 0 to 4294967295 |
-| `signed int`        | Integer          	 | 2 bytes or 4 bytes   | -2147483648 to 2147483647 |
-| `short int`        | Integer          	 | 2 bytes   | -32768 to 32767 |
-| `unsigned short int`        | Integer          	 | 2 bytes   | 0 to 65535 |
-| `signed short int`        | Integer          	 | 2 bytes   | -32768 to 32767 |
-| `long int`        | Integer          	 | 4 bytes   | -2147483648 to 2147483647 |
-| `unsigned long int`        | Integer          	 | 4 bytes   | 0 to 4294967295 |
-| `signed long int`        | Integer          	 | 4 bytes   | -2147483648 to 2147483647 |
-| `float`      | Floating Point          | 4 bytes 		| +/-3.4e +/-38 (~7 digits) |
-| `double`     | Double Floating Point   | 8 bytes 		| +/-1.7e +/-308 (~15 digits) |
-| `wchar_t`     | Wide Character          | 2 bytes or 4 bytes  | 1 wide character		 |
-| `bool`       | Boolean          	 | 1 bytes 		| |
-| `void`       | Empty          	 | 0 bytes 		| true or false |
+| DATA TYPES   | MEANING 		 | TYPICAL BIT WIDTH	| TYPICAL RANGE 		|  
+|--------------|:------------------------|:---------------------|:------------------------------|
+| `char`       | Character         	 | 1 bytes 		| -128 to 127 or 0 to 255 	|
+| `int`        | Integer          	 | 2 bytes or 4 bytes   | -2147483648 to 2147483647 	|
+| `float`      | Floating Point          | 4 bytes 		| +/-3.4e +/-38 (~7 digits) 	|
+| `double`     | Double Floating Point   | 8 bytes 		| +/-1.7e +/-308 (~15 digits) 	|
+| `wchar_t`     | Wide Character          | 2 bytes or 4 bytes  | 1 wide character	 	|
+| `bool`       | Boolean          	 | 1 bytes 		| true or false 		|
+| `void`       | Empty          	 | 0 bytes 		|  				|
 
 There are modifiers such as `short`, `long`, `signed`, and `unsigned`.
 
@@ -133,28 +123,6 @@ int main() {
 	int number = 25;
 	cout << "The number is " << number << endl;
 	return 0;
-}
-```
-
-```cpp
-# include <iostream>
-using namespace std;
-
-int main() {
-	cout<<" size of int(in bytes):"<<sizeof(int)<<endl;
-	cout<<" size of unsigned int(in bytes):"<<sizeof(unsigned int)<<endl;
-	cout<<" size of char(in bytes):"<<sizeof(char)<<endl;
-	cout<<" size of unsigned char(in bytes):"<<sizeof(unsigned char)<<endl;
-	cout<<" size of float(in bytes):"<<sizeof(float)<<endl;
-	cout<<" size of double(in bytes):"<<sizeof(double)<<endl;
-	cout<<" size of long double(in bytes):"<<sizeof(long double)<<endl;
-	cout<<" size of bool(in bytes):"<<sizeof(bool)<<endl;
-	cout<<" size of long(in bytes):"<<sizeof(long)<<endl;
-	cout<<" size of unsigned long(in bytes):"<<sizeof(unsigned long)<<endl;
-	cout<<" size of long long(in bytes):"<<sizeof(long long)<<endl;
-	cout<<" size of unsigned long long(in bytes):"<<sizeof(unsigned long long)<<endl;
-	cout<<" size of short(in bytes):"<<sizeof(short)<<endl;
-	cout<<" size of unsigned short(in bytes):"<<sizeof(unsigned short)<<endl;
 }
 ```
 
