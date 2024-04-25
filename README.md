@@ -222,11 +222,17 @@ cout << "Your name is: " << fullName;
 ```
 
 ## Pointers
-### Declare pointers
+### Pointer Declaration Syntax
 Here is how we can declare pointers:
 ```cpp
 int *point_var;
 ```
+
+### Reference Operator (`&`) and Dereference Operator (`*`)
+The reference operator (`&`) returns the variable’s address.
+
+The dereference operator (`*`) helps us get the value that has been stored in a memory address.
+
 
 ### Assigning Addresses to Pointers
 Here is how we can assign addresses to pointers:
@@ -258,6 +264,13 @@ Whe `*` is used with pointers, it's called the __dereference operator__. It oper
 > In C++, `point_var` and `*point_var` are completely different. We cannot do something like `*point_var = &var;`. Here, point_var is a pointer that stores the address of variable it points to while `*point_var` returns the value stored at the address pointed by `point_var`.
 
 
+### NULL Pointer
+If there is no exact address that is to be assigned, then the pointer variable can be assigned a NULL. It should be done during the declaration. Such a pointer is known as a null pointer. Its value is zero and is defined in many standard libraries like iostream.
+
+```cpp
+int *ip = NULL:
+cout << "Value of ip is: "" << ip << endl;
+```
 
 ## References
 - [How to Learn the C++ Programming Language](https://www.freecodecamp.org/news/how-to-learn-the-c-programming-language/)
